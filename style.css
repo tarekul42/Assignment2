@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    /* background-color: rgba(255, 208, 155, 0.1); */
+}
+:root{
+    --primary-font: 'Work Sans',normal;
+    --background:none;
+}
+/* **********************************
+          header is starts here
+************************************* */
+header{
+    width: 75%;
+    margin: 0 auto;
+    /* background-color: rgba(255, 208, 155, 0.1); */
+    background: none;
+}
+/***********************************
+        navigation bar is here
+************************************* */
+nav{
+display: flex;
+padding-top: 50px;
+width: 100%;
+justify-content: space-between;
+background: var(--background);
+}
+.nav-main-left{
+    font-family: var(--primary-font);
+    background: var(--background);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.nav-right{
+    text-align: right;
+    display: flex;
+    align-items: center;
+    background: var(--background);
+}
+.nav-a-right{
+    font-family: var(--primary-font);
+    background: var(--background);
+    display: flex;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    list-style: none;
+}
+.nav-a-right a{
+    text-decoration: none;
+    color: #424242;
+    padding-left: 30px;
+    background: var(--background);
+}
+/* ******************************************
+banner secton in header
+******************************************** */
+.banner{
+    width: 59.9%;
+    margin: 0 auto;
+    margin-top: 102px;
+    text-align: center;
+    background: var(--background);
+}
+.banner-header{
+    font-family: var(--primary-font);
+    background: var(--background);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+.banner-description{
+    font-family: var(--primary-font);
+    background: var(--background);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin: 28px 0 0px 0;
+}
+.primary-button{
+    font-family: var(--primary-font);
+    background: var(--background);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    /* background: rgba(255, 144, 14, 0.1); */
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 6px;
+    background-color:rgb(248, 145, 11) ;
+    height: 64px;
+    width: 180px;
+    margin-top: 32px;
+}
+.banner-image{
+    margin: 50px 0;
+    width: 100%;
+}
+.image1{
+    width: 100%;
+
+}
+main{
+    background-color: white;
+    margin: 0 auto;
+
+}
+/* **********************************
+section part 1
+************************************* */
+.first-sec{
+    margin: 0 auto ;
+    max-width: 68.65%;
+    display: flex;
+    padding-top: 85px;
+}
+.first-sec-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 708px;
+    width: 708px;
+    gap: 24px;
+}
+.sec-img{
+    height: 342px;
+    width: 342px;
+
+}
+.first-sec-desc{
+     padding: 14% 0% 14% 7%; 
+
+}
+.sec1-header{
+    font-family: var(--primary-font);
+    font-size: 45px;
+    line-height: 53px;
+
+}
+.sec1-header-h1{
+    color: rgba(114, 114, 114, 1);
+    font-weight: 500px;
+}
+.sec1-header-h2{
+    font-weight: 900px;
+}
+.sec1-header-h3{
+    color: rgba(255, 144, 14, 1);
+    font-weight: 900px;
+}
+.sec1-description{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+/* *****************************************
+            section part 2 is here
+******************************************** */
+.second-sec{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.second-sec-desc{
+    height: 982px ;
+    width: 586px;
+
+}
+/* .second-sec-desc1{
+
+} */
+.sec2-vh-line{
+    display: flex;
+    padding-top:15% ;
+}
+.second-sec-desc2{
+    width: 586px;
+
+}
+.sec2-vh-line .vh-line{
+    height: 106px;
+    width: 4px;
+    background-color: orange;
+    color: orange;
+    padding-right: 6px;
+    margin-right:  10px; 
+}
+.sec2-header{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+.sec2-description{
+    width: 586px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* .second-sec-desc2{
+
+} */
+.sec2-header1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+.sec2-description1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.second-sec-desc22{
+    height: 171px;
+    box-sizing: border-box;
+    padding: 30px 42px 30px;
+    box-shadow: #727272;
+
+}
+.sec2-img{
+    width: 708px;
+    height: 982px;
+} 
+.sec2-imgm{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* *****************************************
+            extra button  is here
+******************************************** */
+
+
+
+.last-btn{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 23px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 6px;
+    background-color:rgb(252, 144, 4) ;
+    height: 200px;
+    width: 342px;
+    padding-top: 3%;
+    margin: -20% 0% 0 45%;
+}
+.last-btn span{
+    font-size: 1rem;
+}
+/* *****************************************
+            section part 3 is here
+******************************************** */
+.third-sec{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 130px;
+}
+.sec3-h1{
+    font-family: var(--primary-font);
+    font-weight: 700;
+font-size: 45px;
+line-height: 53px;
+padding-bottom: 24px;
+}
+.sec3-desc{
+    font-family: var(--primary-font);
+    width: 586px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+/* *****************************************
+            section part 4 is here
+******************************************** */
+.fourth-sec{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-bottom: 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+
+}
+.sec4-1{
+    height: 242px;
+    width: 242px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    border: 2px solid orange;
+    border-radius: 6px;
+    padding-top: 20%;
+
+}
+.sec4-1:hover{
+    box-shadow: 1px 2px 50px lightskyblue;
+    transform: rotate(360deg);
+    translate: 1;
+    transition: 1s transform ease-out;
+}
+.sec4-h1{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+.sec4-desc{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+}
+.sec4-img{
+    height: 46px;
+    width: 46px;
+}
+/* *****************************************
+            section part 5 is here
+******************************************** */
+.sec5-spnsr{
+    width: 75%;
+    padding: 120px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    justify-items: center;
+}
+.sec5-img{
+    filter: grayscale(1);
+}
+/* *****************************************
+            additional part  is here
+******************************************** */
+.additional{
+    margin: 0 auto;
+    width: 75%;
+}
+
+.add1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin: 100px 0 ;
+}
+.add-left{
+    height: 300px;
+    width: 300px;
+
+}
+.add-sec-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+.add-desc{
+    padding: 0% 10% 5%;
+}
+
+.add-sec-img:hover{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 30px lightgrey;
+
+}
+
+
+/* *****************************************
+            footer part  is here
+******************************************** */
+footer{
+margin: 0 auto;
+width: 75%;
+}
+.foot{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    height: 50px;
+background: #FFF4E7;
+border-radius: 8px;
+padding-bottom: 0px;
+align-items: center;
+padding-top: 2%;
+margin-bottom: 100px;
+
+}
+.hide{
+    display: none;
+}
+@media only screen and (max-width:576px) {
+/* **********************************
+          header is starts here
+************************************* */
+header{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: rgba(255, 208, 155, 0.1); */
+}
+/***********************************
+        navigation bar is here
+************************************* */
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    width: 100%;
+    }
+    .nav-main-left{
+        font-size: 2rem;
+        margin: 0 auto;
+    }
+    .nav-right{
+        flex-direction: column;
+        text-align: center;
+    }
+    .nav-a-right{
+        flex-direction: column;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .nav-a-right a{
+        padding-left: 0px;
+        margin-left: -40px;
+    }
+/* ******************************************
+banner secton in header
+******************************************** */
+.banner{
+    width: 100%;
+    margin-top: 30px;
+}
+.banner-header{
+    font-size: 2.5rem;
+    line-height: 45px;
+}
+.banner-description{
+    line-height: 18px;
+    margin: 14px 0 0px 0;
+}
+.primary-button{
+    font-size: 1rem;
+    line-height: 13px;
+    height: 50px;
+    width: 120px;
+    margin-top: 12px;
+}
+.banner-image{
+    margin: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.image1{
+    width: 96%;
+    text-align: center;
+
+}
+/* **********************************
+section part 1
+************************************* */
+.first-sec{
+    max-width: 100%;
+    flex-direction: column;
+    padding-top: 85px;
+    text-align: center;
+}
+.first-sec-img{
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    gap: 14px;
+}
+.first-sec-desc{
+     padding: 90% 5% 0% 5%;  
+     margin-top: 100%;
+
+}
+.sec1-header{
+    font-size: 2rem;
+    line-height: 33px;
+
+}
+.sec1-description{
+    line-height: 18px;
+    margin-top: 24px;
+}
+/* *****************************************
+            section part 2 is here
+******************************************** */
+.second-sec{
+    width: 96%;
+    margin: 0 auto;
+    padding-top: 30px;
+    flex-direction: column;
+    /* text-align: center; */
+}
+.second-sec-desc{
+    height: px ;
+    width: 100%;
+
+}
+/* .second-sec-desc1{
+
+} */
+.second-sec-desc2{
+    width: 100%;
+
+}
+.sec2-vh-line .vh-line{
+    height: 84px;
+}
+.sec2-header{
+    font-size: 2.5rem;
+    line-height: 43px;
+
+}
+.sec2-description{
+    width: 96%;
+    line-height: 26px;
+}
+/* .second-sec-desc2{
+
+} */
+.second-sec-desc22{
+    padding: 30px 22px 30px;
+    box-shadow: 0.1px 0.1px 1px lightgray;
+
+}
+.second-sec .sec2-img{
+    text-align: center;
+
+}
+.sec2-img{
+    width: 100%;
+    height:500px;
+} 
+.sec2-imgm{
+    width: 96%;
+}
+/* *****************************************
+            extra button  is here
+******************************************** */
+.last-btn{
+    font-size: 1.5rem;
+    line-height: 18px;
+    height: 70px;
+    width: 140px;
+    margin: -10% 0 0 3.5% ;
+}
+/* *****************************************
+            section part 3 is here
+******************************************** */
+.third-sec{
+    width: 90%;
+    padding-top: 10px;
+}
+.sec3-h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+.sec3-desc{
+    width: 90%;
+}
+/* *****************************************
+            section part 4 is here
+******************************************** */
+.fourth-sec{
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 20px;
+
+}
+/* *****************************************
+            section part 5 is here
+******************************************** */
+.sec5-spnsr{
+    width: 80%;
+    padding: 20px 0;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+/* *****************************************
+            additional part  is here
+******************************************** */
+.additional{
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+    width: 96%;
+}
+.add1{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 10px 0 ;
+}
+.add-sec-img:hover{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 30px lightgrey;
+
+}
+/* *****************************************
+            footer part  is here
+******************************************** */
+footer{
+    margin: 0 auto;
+    width: 96%;
+    }
+    .foot{
+        font-size: 0.8rem;
+        line-height: 13px;
+        height: 20px;
+        margin-bottom: 10px;
+    
+    }
+}
