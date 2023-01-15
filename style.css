@@ -1,6 +1,10 @@
+/* ************************************************************************************
+******************************************************************************************
+           My pc widht is 1920 px . so it looks beautiful at this size .  
+********************************************************************************************
+******************************************************************************************* */
 *{
-    margin: 0;
-    /* background-color: rgba(255, 208, 155, 0.1); */
+    margin: 0 auto;
 }
 :root{
     --primary-font: 'Work Sans',normal;
@@ -125,6 +129,7 @@ section part 1
     max-width: 68.65%;
     display: flex;
     padding-top: 85px;
+    width: 100%;
 }
 .first-sec-img{
     display: grid;
@@ -134,12 +139,12 @@ section part 1
     gap: 24px;
 }
 .sec-img{
-    height: 342px;
-    width: 342px;
+    height: 302px;
+    width: 302;
 
 }
 .first-sec-desc{
-     padding: 14% 0% 14% 7%; 
+     padding: 14% 0% 0% 18%; 
 
 }
 .sec1-header{
@@ -256,7 +261,7 @@ section part 1
 .last-btn{
     font-family: var(--primary-font);
     font-weight: 600;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     line-height: 23px;
     text-align: center;
     align-items: center;
@@ -264,9 +269,10 @@ section part 1
     border: 0;
     border-radius: 6px;
     background-color:rgb(252, 144, 4) ;
-    height: 200px;
-    width: 342px;
+    height: 18%;
+    width: 20%;
     padding-top: 3%;
+    padding-bottom: 2%;
     margin: -20% 0% 0 45%;
 }
 .last-btn span{
@@ -347,7 +353,9 @@ padding-bottom: 24px;
 ******************************************** */
 hr{
     margin: 0 auto;
+    border: 0.01px solid lightslategray;
     width: 75%;
+    height: 0.1px;
     box-sizing: border-box;
     box-shadow: 0px 0px 10px lightgray;
 
@@ -660,4 +668,7 @@ footer{
         margin-bottom: 10px;
     
     }
+}
+@media only screen and (min-width:1440px) {
+    
 }
